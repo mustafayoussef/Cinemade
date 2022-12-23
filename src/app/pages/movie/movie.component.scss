@@ -1,0 +1,50 @@
+@import '../../../styles/colors';
+
+:host ::ng-deep {
+    .p-tabview-nav {
+        justify-content: center;
+    }
+}
+
+.poster {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px #00000070;
+}
+
+.overview {
+    line-height: 1.5;
+}
+
+.stat {
+    display: flex;
+
+    .label {
+        margin: 0 5px 15px 0;
+        font-weight: bold;
+    }
+
+    .value {
+        color: $primaryColor;
+    }
+}
+.cast-title{
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.actor {
+    padding: 10px;
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 6px 5px 21px -4px black;
+    }
+
+    span {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
